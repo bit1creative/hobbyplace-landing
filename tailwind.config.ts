@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-black": "#010C11",
+        "custom-gray": "#CDD0D2",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "home-page": "url('/images/background.png')",
+      },
+      backgroundSize: {
+        "50%": "150%",
+        "16": "4rem",
       },
     },
   },
