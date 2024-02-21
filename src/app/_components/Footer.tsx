@@ -3,11 +3,12 @@ export const Footer = () => {
     <footer className="px-6 py-8 bg-custom-black text-white">
       <div className="flex flex-col gap-8">
         <div>
-          <span>Пошта </span>
+          <span>Пошта: </span>
           <a
             href={`mailto:support@hobbyplace.io`}
             target="_blank"
             rel="noopener noreferrer"
+            className="underline underline-offset-3 w-max"
           >
             support@hobbyplace.io
           </a>
@@ -49,7 +50,7 @@ export const Footer = () => {
             href={``}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4"
+            className="underline underline-offset-3 w-max"
           >
             Політика використання
           </a>
@@ -57,7 +58,7 @@ export const Footer = () => {
             href={``}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4"
+            className="underline underline-offset-3 w-max"
           >
             Ліцензійна угода
           </a>
@@ -65,7 +66,7 @@ export const Footer = () => {
             href={``}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4"
+            className="underline underline-offset-3 w-max"
           >
             Умови та положення
           </a>
@@ -73,7 +74,7 @@ export const Footer = () => {
             href={``}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4"
+            className="underline underline-offset-3 w-max"
           >
             Політика конфідейнційності
           </a>
