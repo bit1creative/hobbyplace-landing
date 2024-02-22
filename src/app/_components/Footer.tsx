@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer className="font-mulish px-6 py-8 bg-custom-black text-white md:px-14 md:py-8">
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-8 md:flex-row md:justify-between">
+        <div className="flex flex-col gap-8 md:flex-row md:justify-between text-base">
           <div>
             <span>Пошта: </span>
             <a
@@ -47,7 +47,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 text-custom-gray md:flex-row md:justify-between">
+        <div className="flex flex-col gap-2 text-custom-gray md:flex-row md:justify-between text-base">
           <a
             href={``}
             target="_blank"
@@ -82,7 +82,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="md:text-end">
+        <div className="md:text-end text-base">
           <div className="text-custom-gray">© Hobby Place, 2024</div>
         </div>
       </div>
