@@ -19,7 +19,7 @@ export const InfoTabs = () => (
       </Tabs.Trigger>
     </Tabs.List>
 
-    <Tabs.Content value="coach" className="font-mulish mt-8">
+    <Tabs.Content value="coach" className="font-mulish mt-8 text-custom-black">
       <p className="font-semibold text-base md:text-xl">
         Відкрийте нові можливості для своєї практики
       </p>
@@ -28,12 +28,12 @@ export const InfoTabs = () => (
         завдяки легкості залучення клієнтів та ефективній організації роботи,
         розкриваючи безмежні можливості для професійного росту та розвитку.
       </p>
-      <div className="mt-8 w-full bg-custom-black rounded text-white text-center p-2 md:mt-14">
+      <div className="mt-8 w-full bg-custom-black rounded text-white text-center p-2 md:mt-14 py-4">
         <a className="uppercase font-unbounded text-base md:text-lg">Долучитись</a>
       </div>
     </Tabs.Content>
 
-    <Tabs.Content value="user" className="font-mulish mt-8">
+    <Tabs.Content value="user" className="font-mulish mt-8 text-custom-black">
       <p className="font-semibold text-base md:text-xl">
         Зробіть зустрічний крок до ваших інтересів
       </p>
@@ -42,7 +42,7 @@ export const InfoTabs = () => (
         надаючи доступ до широкого спектру хобі та професійних наставників, що
         відкриває нові горизонти для особистісного росту та творчого розвитку.
       </p>
-      <div className="mt-8 w-full bg-custom-black rounded text-white text-center p-2 md:mt-14">
+      <div className="mt-8 w-full bg-custom-black rounded text-white text-center p-2 md:mt-14 py-4">
         <a className="uppercase font-unbounded text-base md:text-lg">перейти до застосунку</a>
       </div>
     </Tabs.Content>

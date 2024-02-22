@@ -26,6 +26,9 @@ const config: Config = {
       fontSize: {
         "4xl": ["40px", "54px"],
       },
+      screens: {
+        "2xl": "1440px",
+      },
     },
   },
   plugins: [],

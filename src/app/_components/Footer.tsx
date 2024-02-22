@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer className="font-mulish px-6 py-8 bg-custom-black text-white md:px-14 md:py-8">
-      <div className="flex flex-col gap-8 mx-auto max-w-5xl">
+      <div className="flex flex-col gap-8 mx-auto max-w-5xl 2xl:max-w-[1440px]">
         <div className="flex flex-col gap-8 md:flex-row md:justify-between text-base">
           <div>
             <span>Пошта: </span>
@@ -47,7 +47,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 text-custom-gray md:flex-row md:justify-between text-base md:text-sm">
+        <div className="flex flex-col gap-8 2xl:flex-row 2xl:justify-between">
+
+        <div className="flex flex-col gap-2 text-custom-gray md:flex-row md:justify-between text-base md:text-sm 2xl:gap-8">
           <a
             href={``}
             target="_blank"
@@ -84,6 +86,8 @@ export const Footer = () => {
 
         <div className="md:text-end text-base md:text-sm">
           <div className="text-custom-gray">© Hobby Place, 2024</div>
+        </div>
+
         </div>
       </div>
     </footer>
