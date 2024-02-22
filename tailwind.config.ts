@@ -23,6 +23,9 @@ const config: Config = {
         mulish: ["var(--font-mulish)"],
         unbounded: ["var(--font-unbounded)"],
       },
+      fontSize: {
+        "4xl": ["40px", "54px"],
+      },
     },
   },
   plugins: [],
