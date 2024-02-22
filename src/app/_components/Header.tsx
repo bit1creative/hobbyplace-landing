@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Header = () => (
   <header className="absolute top-0 left-0 text-2xl">
-    <div className="py-4 px-5 text-white">
+    <div className="py-4 px-5 text-white md:px-14 md:py-8">
       <Link href={"/"}>hobbyplace.</Link>
     </div>
   </header>
