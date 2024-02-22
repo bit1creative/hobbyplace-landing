@@ -1,10 +1,20 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Mulish, Unbounded } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./_components/Footer";
 import { Header } from "./_components/Header";
 
+
 const inter = Inter({ subsets: ["latin"] });
+
+Mulish({
+  weight: ['500', "700"],
+  variable: '--font-mulish'
+})
+Unbounded({
+  weight: ['500', '600'],
+  variable: '--font-unbounded'
+})
 
 export const metadata: Metadata = {
   title: "Hobbyplace",

@@ -19,6 +19,10 @@ const config: Config = {
         "50%": "150%",
         "16": "4rem",
       },
+      fontFamily: {
+        mulish: ["var(--font-mulish)"],
+        unbounded: ["var(--font-unbounded)"],
+      },
     },
   },
   plugins: [],
