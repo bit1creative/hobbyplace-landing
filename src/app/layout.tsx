@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Mulish, Unbounded } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./_components/Footer";
-import { Header } from "./_components/Header";
 
 
 const mulish = Mulish({
@@ -36,7 +35,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="min-h-screen">
       <body className={`${mulish.variable} ${unbounded.variable} font-sans`}>
-        <Header />
         {children}
         <Footer />
       </body>

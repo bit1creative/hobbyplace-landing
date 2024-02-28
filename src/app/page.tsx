@@ -1,8 +1,11 @@
+import { Header } from "./_components/Header";
 import { InfoTabs } from "./_components/InfoTabs";
 
 export default function Home() {
   return (
-    <main className="min-h-screen grid place-items-center bg-home-page bg-cover bg-right md:px-14 2xl:bg-left 2xl:bg-[#002333]">
+    <main className="min-h-screen flex justify-between items-center flex-col bg-home-page bg-cover bg-right md:px-14 2xl:bg-[-75%_50%] bg-no-repeat 2xl:bg-[#002333]">
+      <Header />
+
       <div className="mx-auto max-w-5xl 2xl:max-w-[1440px]">
         <div className="2xl:hidden bg-white w-full py-8 px-6 text-custom-black md:py-10 md:px-8">
           <div className="uppercase font-unbounded font-semibold text-lg md:text-4xl">
@@ -24,6 +27,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div></div>
     </main>
   );
 }
